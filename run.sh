@@ -1,0 +1,1 @@
+docker run --rm -it --privileged -v /dev/bus/usb:/dev/bus/usb -v $(PWD)/esp-idf:/esp/esp-idf -v $(PWD):/esp/project 4b424e205eb0 /bin/bash
